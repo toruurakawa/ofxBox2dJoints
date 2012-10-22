@@ -81,6 +81,11 @@ float ofxBox2dRevoluteJoint::getUpperLimit(){
     return (float)joint->GetUpperLimit();
 }
 
+//----------------------------------------
+float ofxBox2dRevoluteJoint::getAngle(){
+    return (float)joint->GetJointAngle();
+}
+
 void ofxBox2dRevoluteJoint::setLimits(float lower, float upper){
     joint->SetLimits((float32)lower, (float32)upper);
 }

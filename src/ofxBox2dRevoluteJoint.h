@@ -28,6 +28,7 @@ class ofxBox2dRevoluteJoint : public ofxBox2dBaseJoint {
     
         float   getLowerLimit();
         float   getUpperLimit();
+        float   getAngle();
         void    setLimits(float, float);
         void    setEnableLimit(bool);
         bool    isLimitEnabled();
