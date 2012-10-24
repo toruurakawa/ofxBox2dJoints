@@ -10,7 +10,7 @@
 #include "Box2D.h"
 #include "ofxBox2dBaseJoint.h"
 
-class ofxBox2dWeldJoint : public: ofxBox2dBaseJoint{
+class ofxBox2dWeldJoint : public ofxBox2dBaseJoint{
 protected:
     b2WeldJoint *joint;
     
